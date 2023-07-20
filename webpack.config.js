@@ -21,7 +21,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: "style.css"
+        filename: "bundle.js"
     },
     plugins: [new HtmlWebpackPlugin()],
     mode: process.env.NODE_ENV === "production" ? "production" : "development", // Fix 'prduction' to 'production'
