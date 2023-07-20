@@ -1,1 +1,0 @@
-const myArray=["dash", "Suzu"]
